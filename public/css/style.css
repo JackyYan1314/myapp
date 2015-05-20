@@ -1,0 +1,18 @@
+.nav_link{
+	float:right;
+	margin:2px;
+	padding-right: 10px;
+}
+
+.register_link{
+	color:lightgreen;
+}
+
+.s_button{
+	 background:none!important;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     color:red;
+     cursor: pointer;
+}

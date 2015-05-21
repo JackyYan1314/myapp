@@ -1,11 +1,10 @@
 <?php
 $url = parse_url(getenv("DATABASE_URL"));
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
+$host = "ec2-23-21-76-246.compute-1.amazonaws.com";
+$username = "yfiaapktmkxgul";
+$password = "t1ia9ef3tzCIw51JH6Kaz6PdcH";
 $database = substr($url["path"], 1);
 
-echo "$host, $username, $password, $database <br>";
 
 return array(
 
